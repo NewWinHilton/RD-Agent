@@ -1,5 +1,43 @@
 # Changelog
 
+## [0.3.0](https://github.com/microsoft/RD-Agent/compare/v0.2.1...v0.3.0) (2024-09-23)
+
+
+### Features
+
+* add a new template for kaggle ([#289](https://github.com/microsoft/RD-Agent/issues/289)) ([eee3ab5](https://github.com/microsoft/RD-Agent/commit/eee3ab5b25198224826cb7a8a17eab28bd5d1f7d))
+* add kaggle command ([#271](https://github.com/microsoft/RD-Agent/issues/271)) ([0938394](https://github.com/microsoft/RD-Agent/commit/0938394b7084ffbf3294d8c23d2d34bf7322ca0b))
+* add more templates for kaggle ([#291](https://github.com/microsoft/RD-Agent/issues/291)) ([da752ec](https://github.com/microsoft/RD-Agent/commit/da752ec806e6f5f5679bc27ac1c072ed9a319251))
+* Add runtime measurement for each step and loop in RDLoop. ([#281](https://github.com/microsoft/RD-Agent/issues/281)) ([83058c8](https://github.com/microsoft/RD-Agent/commit/83058c864ceeec413dd29bf501030d5a7bd34679))
+* Added RepoAnalyzer to empower auto-summary of a workspace ([#264](https://github.com/microsoft/RD-Agent/issues/264)) ([0bd349a](https://github.com/microsoft/RD-Agent/commit/0bd349af50b9b881ba1774bdeb4d723529ef2aa9))
+* Added support for loading and storing RAG in Kaggle scenarios. ([#269](https://github.com/microsoft/RD-Agent/issues/269)) ([c4895de](https://github.com/microsoft/RD-Agent/commit/c4895de83f1ed000e563d42b3468a6bd9e5a4965))
+* Factor Implement Search Enhancement ([#294](https://github.com/microsoft/RD-Agent/issues/294)) ([4ecf25f](https://github.com/microsoft/RD-Agent/commit/4ecf25f0acf2389a172b14d3dab20895daf2ab89))
+* Feature selection v3 to support all actions  ([#280](https://github.com/microsoft/RD-Agent/issues/280)) ([0047641](https://github.com/microsoft/RD-Agent/commit/00476413fbf00e36e71ab3ccb48d4e766b6ccf4d))
+* fix some bugs and add original features' description ([#259](https://github.com/microsoft/RD-Agent/issues/259)) ([1a5f45a](https://github.com/microsoft/RD-Agent/commit/1a5f45a40d821c017bdba14af8c93710707c5ea5))
+* Initial version if Graph RAG in KAGGLE scenario ([#301](https://github.com/microsoft/RD-Agent/issues/301)) ([fd3c0fd](https://github.com/microsoft/RD-Agent/commit/fd3c0fd26eff7d3be72fa4f2a234e33b9f796627))
+* Integrate RAG into the Kaggle scenarios. ([#262](https://github.com/microsoft/RD-Agent/issues/262)) ([be0e48a](https://github.com/microsoft/RD-Agent/commit/be0e48a7dfbee2b5d2947d09115db5db2e5266f1))
+* Kaggle loop update (Feature & Model) ([#241](https://github.com/microsoft/RD-Agent/issues/241)) ([4cf22a6](https://github.com/microsoft/RD-Agent/commit/4cf22a65c964123b4267569ee02c0c7094c54ca4))
+* kaggle templates related ([#287](https://github.com/microsoft/RD-Agent/issues/287)) ([785fdc1](https://github.com/microsoft/RD-Agent/commit/785fdc144d16fa8454b7c9d2e53e78fe7f22a29a))
+* Model context for tuning and selection ([#284](https://github.com/microsoft/RD-Agent/issues/284)) ([f2831e7](https://github.com/microsoft/RD-Agent/commit/f2831e7442510668b0ca75953b3359894803ef3c))
+* refine the code in model description and fix some bugs in feedback.py ([#288](https://github.com/microsoft/RD-Agent/issues/288)) ([5b124d7](https://github.com/microsoft/RD-Agent/commit/5b124d7372137e4c613eb2749ddcc773922cc7b6))
+
+
+### Bug Fixes
+
+* actively raised errors aer also considered as negative feedback. ([#268](https://github.com/microsoft/RD-Agent/issues/268)) ([46ec908](https://github.com/microsoft/RD-Agent/commit/46ec908e3594ac5e4cdc4057268e2f8800f5ed1f))
+* eval_method cannot catch run factor error ([#260](https://github.com/microsoft/RD-Agent/issues/260)) ([2aaab31](https://github.com/microsoft/RD-Agent/commit/2aaab317ccb7a0121063bcd85fc36c21c7b8a391))
+* fix some bugs in feedback.py and refine the prompt ([#292](https://github.com/microsoft/RD-Agent/issues/292)) ([d834052](https://github.com/microsoft/RD-Agent/commit/d8340527f133dcc649d599d90d6402eddd37859e))
+* fix some bugs in the entire loop ([#274](https://github.com/microsoft/RD-Agent/issues/274)) ([8a564ec](https://github.com/microsoft/RD-Agent/commit/8a564ece1d87b27ee98b76db317935e802468965))
+* improve_execution_time_in_kaggle_loop ([#279](https://github.com/microsoft/RD-Agent/issues/279)) ([4c8f998](https://github.com/microsoft/RD-Agent/commit/4c8f998c76f1e983a5687d2c65d3251750f2a9a0))
+* kaggle data mount problem ([#297](https://github.com/microsoft/RD-Agent/issues/297)) ([795df31](https://github.com/microsoft/RD-Agent/commit/795df311e3f93cd2f3fb51ba5698adaf10f6bd62))
+* refactor Bench ([#302](https://github.com/microsoft/RD-Agent/issues/302)) ([78a87f6](https://github.com/microsoft/RD-Agent/commit/78a87f624780ff67c0fa995ae4692678a120f99c))
+* refine the prompt ([#286](https://github.com/microsoft/RD-Agent/issues/286)) ([77966c4](https://github.com/microsoft/RD-Agent/commit/77966c4f5e9f492c437c5b4b78d89c0f875ef0d8))
+* support seed and fix absolute path ([#278](https://github.com/microsoft/RD-Agent/issues/278)) ([26352e1](https://github.com/microsoft/RD-Agent/commit/26352e13121cad5be95c0de78bb9f5dda4330614))
+* test kaggle method ([#296](https://github.com/microsoft/RD-Agent/issues/296)) ([91a6196](https://github.com/microsoft/RD-Agent/commit/91a619618be1d7db660ea2b413a78dfaba9417a1))
+* update code to fix a small bug in model cache md5 hash ([#303](https://github.com/microsoft/RD-Agent/issues/303)) ([b00e4dc](https://github.com/microsoft/RD-Agent/commit/b00e4dc2eff5b16029a2a12a6589eadac5cfd148))
+* update new feature engineering code format ([#272](https://github.com/microsoft/RD-Agent/issues/272)) ([7850b80](https://github.com/microsoft/RD-Agent/commit/7850b8006a7c89d22629b345b4f361b0f35bc60d))
+* Update runner.py to fix a small bug ([#282](https://github.com/microsoft/RD-Agent/issues/282)) ([8aef3ab](https://github.com/microsoft/RD-Agent/commit/8aef3abcecd6002bd4bfeedcbe2c786d8bbfe2be))
+
 ## [0.2.1](https://github.com/microsoft/RD-Agent/compare/v0.2.0...v0.2.1) (2024-09-10)
 
 
